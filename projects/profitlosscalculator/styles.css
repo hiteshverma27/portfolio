@@ -1,0 +1,18 @@
+label{
+    display: block;
+    padding: 2rem;
+}
+h1{
+    text-align: center;
+}
+label{
+    text-align: center;
+}
+button{
+    margin: auto;
+    display: block;
+}
+#output-box{
+    text-align: center;
+    padding: 2rem;
+}
