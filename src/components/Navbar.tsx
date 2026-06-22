@@ -30,10 +30,10 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={isScrolled ? 'glass-nav' : ''} style={{ 
-        position: 'fixed', 
-        top: 0, left: 0, right: 0, 
-        zIndex: 50, 
+      <nav className={isScrolled ? 'glass-nav' : ''} style={{
+        position: 'fixed',
+        top: 0, left: 0, right: 0,
+        zIndex: 50,
         padding: isScrolled ? '1rem 0' : '1.5rem 0',
         transition: 'all 0.3s ease'
       }}>
@@ -46,15 +46,15 @@ const Navbar = () => {
           <div className="desktop-nav" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
             <div style={{ display: 'flex', gap: '2rem' }}>
               {navLinks.map((link) => (
-                <a 
-                  key={link.name} 
-                  href={link.href} 
-                  style={{ 
-                    color: 'var(--text-secondary)', 
-                    textDecoration: 'none', 
+                <a
+                  key={link.name}
+                  href={link.href}
+                  style={{
+                    color: 'var(--text-secondary)',
+                    textDecoration: 'none',
                     fontSize: '0.9rem',
                     fontWeight: 500,
-                    transition: 'color 0.2s' 
+                    transition: 'color 0.2s'
                   }}
                   onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                   onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}
@@ -63,21 +63,21 @@ const Navbar = () => {
                 </a>
               ))}
             </div>
-            
+
             <div style={{ width: '1px', height: '20px', background: 'var(--border-color)' }}></div>
-            
+
             <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-              <a href="https://github.com/hiteshverma" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>
+              <a href="https://github.com/hiteshverma27" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>
                 <FaGithub size={20} />
               </a>
-              <a href="https://linkedin.com/in/hiteshverma" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>
+              <a href="https://www.linkedin.com/in/hiteshverma27/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>
                 <FaLinkedin size={20} />
               </a>
             </div>
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="mobile-toggle"
             style={{ background: 'transparent', border: 'none', color: 'var(--text-primary)', cursor: 'pointer', zIndex: 51, padding: '0.5rem' }}
             onClick={() => setIsMobileOpen(!isMobileOpen)}
@@ -89,7 +89,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Menu Overlay */}
-      <div 
+      <div
         className="mobile-overlay"
         style={{
           position: 'fixed',
@@ -104,13 +104,13 @@ const Navbar = () => {
         }}
       >
         {navLinks.map((link) => (
-          <a 
-            key={link.name} 
-            href={link.href} 
+          <a
+            key={link.name}
+            href={link.href}
             onClick={() => setIsMobileOpen(false)}
-            style={{ 
-              color: 'var(--text-primary)', 
-              textDecoration: 'none', 
+            style={{
+              color: 'var(--text-primary)',
+              textDecoration: 'none',
               fontSize: '1.75rem',
               fontWeight: 600,
             }}
@@ -119,10 +119,10 @@ const Navbar = () => {
           </a>
         ))}
         <div style={{ display: 'flex', gap: '2rem', marginTop: '1rem' }}>
-          <a href="https://github.com/hiteshverma" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-primary)' }}>
+          <a href="https://github.com/hiteshverma27" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-primary)' }}>
             <FaGithub size={28} />
           </a>
-          <a href="https://linkedin.com/in/hiteshverma" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-primary)' }}>
+          <a href="https://www.linkedin.com/in/hiteshverma27/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-primary)' }}>
             <FaLinkedin size={28} />
           </a>
         </div>

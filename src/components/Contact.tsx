@@ -21,10 +21,10 @@ const Contact = () => {
           <a href="mailto:hitesh.v.work@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'inherit', textDecoration: 'none' }}>
             <Mail size={18} /> hitesh.v.work@gmail.com
           </a>
-          <a href="https://linkedin.com/in/hiteshverma" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'inherit', textDecoration: 'none' }}>
+          <a href="https://www.linkedin.com/in/hiteshverma27/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'inherit', textDecoration: 'none' }}>
             <FaLinkedin size={18} /> LinkedIn
           </a>
-          <a href="https://github.com/hiteshverma" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'inherit', textDecoration: 'none' }}>
+          <a href="https://github.com/hiteshverma27" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'inherit', textDecoration: 'none' }}>
             <FaGithub size={18} /> GitHub
           </a>
         </div>
