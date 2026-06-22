@@ -39,7 +39,7 @@ const Navbar = () => {
       }}>
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <a href="#" style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)', textDecoration: 'none', letterSpacing: '-0.5px', zIndex: 51 }}>
-            Hitesh<span style={{ color: 'var(--accent-color)' }}>.</span>
+            hitesh<span style={{ color: 'var(--accent-color)' }}>.</span>
           </a>
 
           {/* Desktop Nav */}
