@@ -18,7 +18,7 @@ const Hero = () => {
         </h1>
 
         <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: '2.5rem', maxWidth: '600px', margin: '0 auto 2.5rem auto', lineHeight: 1.6 }}>
-          Hi, I'm <strong style={{ color: 'var(--text-primary)' }}>Hitesh</strong>. A Frontend React Software Engineer with 4+ years of high-impact experience architecting secure, accessible, and performant enterprise financial platforms.
+          Hi, I'm <strong style={{ color: 'var(--text-primary)' }}>Hitesh</strong>. A Fullstack Node.js Software Engineer with 4+ years of high-impact experience architecting secure, scalable, and high-performance backend systems and modern web applications.
         </p>
 
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>

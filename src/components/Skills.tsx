@@ -1,24 +1,24 @@
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Backend & APIs",
+      skills: ["Node.js", "Express", "NestJS", "TypeScript", "GraphQL", "REST"]
+    },
+    {
       title: "Frontend Frameworks",
-      skills: ["React (Hooks, Suspense)", "Next.js", "Redux", "TypeScript", "JavaScript (ES6+)"]
+      skills: ["React", "Next.js", "Redux", "TailwindCSS"]
     },
     {
-      title: "Architecture & Security",
-      skills: ["UI Design Systems", "Microservices", "REST API", "GraphQL", "OAuth", "JWT"]
+      title: "Database & Cloud",
+      skills: ["MongoDB", "PostgreSQL", "Redis", "AWS (EC2, S3)", "Docker"]
     },
     {
-      title: "DevOps & CI/CD",
-      skills: ["GitHub Actions", "AWS (CloudFront, S3)", "Splunk", "Webpack", "Git"]
+      title: "Testing & DevOps",
+      skills: ["Jest", "Supertest", "GitHub Actions", "CI/CD", "Splunk"]
     },
     {
-      title: "Testing & Quality",
-      skills: ["Cypress (E2E)", "Jest", "JUnit", "WCAG Accessibility", "SonarQube"]
-    },
-    {
-      title: "AI & Tools",
-      skills: ["LangChain", "LangGraph", "Agentic AI", "Copilot", "Agile/Scrum"]
+      title: "Architecture & Tools",
+      skills: ["Microservices", "System Design", "OAuth", "JWT", "Git"]
     }
   ];
 

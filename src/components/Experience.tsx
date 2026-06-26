@@ -3,22 +3,22 @@ import { Briefcase, Code, Terminal, TestTube } from 'lucide-react';
 const Experience = () => {
   const projects = [
     {
-      title: "Investor Profile - Personal Investor Technology",
+      title: "Core Trading Infrastructure API",
       icon: <Code size={24} color="var(--accent-color)" />,
-      metrics: ["53% less drop-offs", "5M+ users", "<7min incident response"],
-      desc: "Developed highly performant, accessible (WCAG AA) UI using functional React for a flagship investment platform. Overhauled multi-step onboarding flows by analyzing Splunk telemetry. Integrated Yodlee with React Suspense and Error Boundaries to significantly reduce page load times."
+      metrics: ["10k+ req/sec", "5M+ users", "<7ms latency"],
+      desc: "Developed highly scalable microservices using Node.js, Express, and Redis for a flagship investment platform. Overhauled data pipelines to handle real-time trading data, significantly reducing latency and server costs."
     },
     {
-      title: "Automated Testing Framework & CI/CD",
+      title: "Automated Payment Processing & CI/CD",
       icon: <TestTube size={24} color="var(--accent-color)" />,
-      metrics: ["85% test coverage", "77% faster testing"],
-      desc: "Engineered a comprehensive testing framework (Cypress, Jest, JUnit) for critical workflows. Slashed end-to-end regression testing time from 1.5 hours to 20 minutes by integrating tests into CI/CD pipelines."
+      metrics: ["99.99% uptime", "77% faster processing"],
+      desc: "Engineered robust payment processing pipelines integrating third-party APIs using Node.js and PostgreSQL. Slashed transaction times and integrated comprehensive E2E testing (Jest, Supertest) into CI/CD workflows."
     },
     {
       title: "BluePrints - Internal Developer Platform",
       icon: <Terminal size={24} color="var(--accent-color)" />,
       metrics: ["100+ devs adopted", "Init time <10 mins"],
-      desc: "Architected a reusable front-end design system and full-stack accelerator with React and TypeScript. Drove engineering consistency, reducing new repository initialization time from 2 weeks to under 10 minutes."
+      desc: "Architected a full-stack accelerator utilizing Node.js, GraphQL, React, and TypeScript. Drove backend engineering consistency, reducing new repository initialization time from 2 weeks to under 10 minutes."
     }
   ];
 
